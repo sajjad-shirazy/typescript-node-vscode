@@ -1,7 +1,17 @@
 {
-  "name": "x-typescript-node-vscode",
+  "name": "typescript-node-vscode",
+  "author": "Sajja Shirazy",
   "main": "index.ts",
+  "scripts": {
+    "build": "tsc -d",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "release:patch": "standard-version && git push --tags",
+    "release:minor": "standard-version --release-as minor && git push --tags",
+    "release:major": "standard-version --release-as major && git push --tags"
+  },
   "devDependencies": {
+    "prettier": "^1.19.1",
+    "standard-version": "^7.1.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
   }
