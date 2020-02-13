@@ -8,6 +8,13 @@ Please note that this repository serves as an example of one way that I've found
 -   NodeJS (tested with v0.10.9)
 -   NPM (tested with v6.1.0)
 
+## Features
+
+-   debugging
+-   build
+-   prettier formatting
+-   standard versioning
+
 ## Usage
 
 To get started first clone this repo:
