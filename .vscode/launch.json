@@ -8,13 +8,8 @@
             "name": "typescript_app",
             "type": "node",
             "request": "launch",
-            "args": [
-                "${workspaceFolder}\\index.ts"
-            ],
-            "runtimeArgs": [
-                "-r",
-                "ts-node/register"
-            ],
+            "args": ["${workspaceFolder}\\src\\index.ts"],
+            "runtimeArgs": ["-r", "ts-node/register"],
             "cwd": "${workspaceRoot}",
             "protocol": "inspector",
             "internalConsoleOptions": "openOnSessionStart"
@@ -22,20 +17,20 @@
     ]
 }
 
-    // "configurations": [
-    //     {
-    //         "name": "Current TS File",
-    //         "type": "node",
-    //         "request": "launch",
-    //         "args": [
-    //             "${relativeFile}"
-    //         ],
-    //         "runtimeArgs": [
-    //             "-r",
-    //             "ts-node/register"
-    //         ],
-    //         "cwd": "${workspaceRoot}",
-    //         "protocol": "inspector",
-    //         "internalConsoleOptions": "openOnSessionStart"
-    //     }
-    // ]
+// "configurations": [
+//     {
+//         "name": "Current TS File",
+//         "type": "node",
+//         "request": "launch",
+//         "args": [
+//             "${relativeFile}"
+//         ],
+//         "runtimeArgs": [
+//             "-r",
+//             "ts-node/register"
+//         ],
+//         "cwd": "${workspaceRoot}",
+//         "protocol": "inspector",
+//         "internalConsoleOptions": "openOnSessionStart"
+//     }
+// ]
