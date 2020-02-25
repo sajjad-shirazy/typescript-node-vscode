@@ -36,3 +36,31 @@ Start up VSCode if you haven't already (tested with VSCode v1.25.1):
 ```
 
 Set a breakpoint on one of the lines such as line 5 in [index.ts](/index.ts) and start debugging by pressing the `F5` key or select `Debug: Start Debugging` form the VSCode command pallet.
+
+### Fromatting all source codes
+
+```
+> npm run format
+```
+
+### Versioning
+
+Updates version within `package.json` & updates change log on the root & creates a new tag in git and pushes all changes in the origin reposiotory.
+
+Realeasing a Patch
+
+```
+> npm run release:patch
+```
+
+Realeasing a Minor
+
+```
+> npm run release:minor
+```
+
+Realeasing a Major
+
+```
+> npm run release:major
+```
