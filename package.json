@@ -14,5 +14,6 @@
     "standard-version": "^7.1.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
-  }
+  },
+  "version": null
 }
