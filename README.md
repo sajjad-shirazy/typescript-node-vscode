@@ -37,6 +37,18 @@ code .
 
 Set a breakpoint on one of the lines such as line 5 in [index.ts](/index.ts) and start debugging by pressing the `F5` key or select `Debug: Start Debugging` form the VSCode command pallet.
 
+### Start
+
+```bash
+npm run start
+```
+
+### Build
+
+```bash
+npm run build
+```
+
 ### Fromatting all source codes
 
 ```bash

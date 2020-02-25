@@ -4,6 +4,7 @@
   "author": "Sajja Shirazy",
   "main": "index.ts",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "build": "tsc -d",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "release:patch": "standard-version && git push --tags",
