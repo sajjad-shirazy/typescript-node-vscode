@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "1.2.0",
   "name": "typescript-node-vscode",
   "author": "Sajja Shirazy",
   "main": "index.ts",
